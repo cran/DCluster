@@ -14,8 +14,7 @@ from there.
 }
 
 
-\details
-{
+\details{
 The \emph{Geographical Analysis Machine} was developed by Openshaw
 et al. to perform geographical studies of the relationship between
 different types of cancer and their proximity to nuclear plants.

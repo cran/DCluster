@@ -12,5 +12,5 @@ gearyc.stat<-function(data, applyto="residuals", ...)
 		Z[!is.finite(Z)]<-0
 	}
 
-	return(geary(x=Z, ...)$C)
+	return(spdep::geary(x=Z, ...)$C)
 }

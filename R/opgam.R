@@ -64,7 +64,7 @@ opgam<-function(data, thegrid=NULL, radius=Inf, step=NULL, alpha, iscluster=opga
 
 	#Take only those balls which were significant
 	GAM<-GAM[,!is.na(GAM[4,])]
-	GAM<-as.data.frame(t(GAM[, GAM[4,]==TRUE ]))
+	GAM<-as.data.frame(t(GAM[, as.logical(GAM[4,])==TRUE ]))
 	#Just the first five names are set because it is possible
 	#to get more than five columns if user-defined functions
 	#are used

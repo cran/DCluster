@@ -28,7 +28,8 @@ Journal of the Royal Statistical Society A  154, 143-155.
 #100  bootstrap simulations are performed
 #Poisson is the model used in the bootstrap simulations to generate the
 #observations.
-#Signifiance level is 0'05/100.
+#Signifiance level is 0'05, even though multiple tests are made.
+
 library(boot)
 library(spdep)
 
@@ -38,9 +39,9 @@ sids<-data.frame(Observed=nc.sids$SID74)
 sids<-cbind(sids, Expected=nc.sids$BIR74*sum(nc.sids$SID74)/sum(nc.sids$BIR74))
 sids<-cbind(sids, x=nc.sids$x, y=nc.sids$y)
 
-bnresults<-opgam(sids, thegrid=sids[,c("x","y")], alpha=.05/100, 
+bnresults<-opgam(sids, thegrid=sids[,c("x","y")], alpha=.05, 
 	iscluster=bn.iscluster, set.idxorder=TRUE, k=20, model="poisson", 
-	R=100, mle=NULL )
+	R=100, mle=calculate.mle(sids) )
 
 #Plot all the centroids
 plot(sids$x, sids$y)

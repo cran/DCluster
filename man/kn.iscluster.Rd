@@ -55,7 +55,7 @@ sids<-cbind(sids, Population=nc.sids$BIR74, x=nc.sids$x, y=nc.sids$y)
 
 #K&N's method over the centroids
 mle<-calculate.mle(sids, model="poisson")
-knresults<-opgam(data=sids, thegrid=sids[,c("x","y")], alpha=.05/100, 
+knresults<-opgam(data=sids, thegrid=sids[,c("x","y")], alpha=.05, 
 	iscluster=kn.iscluster, fractpop=.5, R=100, model="poisson", mle=mle)
 
 #Plot all centroids and significant ones in red

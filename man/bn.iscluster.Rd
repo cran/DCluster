@@ -60,7 +60,7 @@ sids<-cbind(sids, Expected=nc.sids$BIR74*sum(nc.sids$SID74)/sum(nc.sids$BIR74))
 sids<-cbind(sids, x=nc.sids$x, y=nc.sids$y)
 
 #B&N's method
-bnresults<-opgam(data=sids, thegrid=sids[,c("x","y")], alpha=.05/100, 
+bnresults<-opgam(data=sids, thegrid=sids[,c("x","y")], alpha=.05, 
 	iscluster=bn.iscluster, k=20, R=100, model="poisson", 
 	mle=calculate.mle(sids))
 

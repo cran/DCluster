@@ -10,5 +10,5 @@ moranI.stat<-function(data, applyto="residuals", ...)
 		Z[!is.finite(Z)]<-0
 	}
 
-	return(moran(x=Z,...)$I)
+	return(spdep::moran(x=Z,...)$I)
 }
