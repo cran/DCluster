@@ -16,7 +16,7 @@ See \emph{opgam.iscluster.default} for more details.
 
 
 \usage{
-kn.iscluster(data, idx, idxorder, alpha, fractpop, model="poisson", R, mle)
+kn.iscluster(data, idx, idxorder, alpha, fractpop, use.poisson=TRUE, model="poisson", R, mle)
 }
 
 
@@ -28,6 +28,7 @@ according to their distance to the current center.}
 \item{alpha}{Test signifiance.}
 \item{fractpop}{Maximum fraction of the total population used when
 creating the balls.}
+\item{use.poisson}{Use the statistic for Poisson (default) or Bernouilli case.}
 \item{model}{Thge model used to generate random observations. It can be
 'permutation', 'multinomial', 'poisson' or 'negbin'. See \emph{observed.sim} manual page for details.}
 \item{R}{The number of bootstrap replicates to generate.}

@@ -26,12 +26,12 @@ opgam.iscluster.negbin<-function(data, idx, idxorder, alpha, mle, R=999, ...)
 	localE<-sum(data$Expected[localidx])
 	if(localE ==0) return(c(localO, NA, NA, NA)) 
 
-	bt<-boot(data[localidx, ], statistic=function(x){sum(x$Observed)},
-		R=R, sim="parametric",ran.gen=negbin.sim,
-		mle=list(n=sum(idx),size=mle$size,prob=mle$prob[localidx]))
+#	bt<-boot(data[localidx, ], statistic=function(x){sum(x$Observed)},
+#		R=R, sim="parametric",ran.gen=negbin.sim,
+#		mle=list(n=sum(idx),size=mle$size,prob=mle$prob[localidx]))
+#	pvalue<-sum(bt$t>localO)/(R+1)
 
-		
-	pvalue<-sum(bt$t>localO)/(R+1)
+	pvalue<-.Call("Ropgam_iscluster_negbin",data$Observed[localidx], data$Expected[localidx], mle$size, mle$prob[localidx], R, PACKAGE="DCluster")
 
 	return (c(localO, alpha>pvalue, pvalue, sum(idx)))
 }

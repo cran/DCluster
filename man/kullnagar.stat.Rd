@@ -1,6 +1,9 @@
 \name{kullnagar.stat}
 
 \alias{kullnagar.stat}
+\alias{kullnagar.stat.poisson}
+\alias{kullnagar.stat.bern}
+
 
 \title{Kulldorff and Nagarwalla's statistic for spatial clustering.}
 
@@ -10,12 +13,15 @@ around a single region, which is supposed to be the first row of the
 dataframe. The other regions are supposed to be sorted by distance to 
 the centre in the data frame.
 
+Two possible function are provided: {\em kullnagar.stat.poisson}, for th Poisson
+case, and {\em kullnagar.stat.bern}, for the Bernouilli case.
+
 See \emph{kullnagar} manual page for details.
 }
 
 
 \usage{
-kullnagar.stat(data, fractpop, log.v=FALSE)
+kullnagar.stat(data, fractpop, use.poisson=TRUE, log.v=FALSE)
 }
 
 
@@ -23,6 +29,7 @@ kullnagar.stat(data, fractpop, log.v=FALSE)
 \item{data}{A dataframe with the data as explained in \emph{DCluster}.}
 \item{fractpop}{Maximum fraction of the total population used when
 creating the balls.}
+\item{use.poisson}{Use the statistic for Poisson (default) or Bernouilli case.}
 \item{log.v}{Whether the logarithm of the statistic is returned or not.}
 }
 

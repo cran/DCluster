@@ -20,7 +20,9 @@ where \emph{p} is the probability of being a case inside the ball and
 where the maximum of the likelihood ratio is achieved is selected and its
 value is tested to assess whether it is significant or not.
 
-The value of the likelihood ratio statistic is
+There are two possible statistics, depending on the model assumed for the
+data, which can be Bernouilli or Poisson. The value of the likelihood ratio 
+statistic is
 
 \deqn{\max_{z \in Z}\frac{L(z)}{L_0}}{max_z[L(z)/L_0]}
 

@@ -35,6 +35,7 @@ besagnewell.stat<-function(data, k)
 
 	#Number of regions needed to sum k cases
 	l<-sum(csum<k)+1
+	if(l>length(data[[1]]) ) l<-l-1
 
 	return(c(value=l, size=l))
 }
