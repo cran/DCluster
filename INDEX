@@ -1,0 +1,60 @@
+achisq                  Another implementation of Pearson's Chi-square
+                        statistic
+achisq.boot             Bootstrap replicates of Pearson's Chi-square
+                        statistic
+achisq.stat             Another implementation of Pearson's Chi-square
+                        statistic
+besagnewell             Besag and Newell's statistic for spatial
+                        clustering
+besagnewell.boot        Generate boostrap replicates of Besag and
+                        Newell's statistic
+besagnewell.stat        Besag and Newell's statistic for spatial
+                        clustering
+bn.iscluster            Clustering function for Besag and Newell's
+                        method
+calculate.mle           Calculate parameters involved in smapling
+                        procedures
+DCluster                A package for the detection of spatial
+                        clusters of diseases for count data
+empbaysmooth            Empirical Bayes Smoothing
+gearyc                  Moran's I autocorrelation statistic
+gearyc.boot             Generate bootstrap replicates of Moran's I
+                        autocorrelation statistic
+gearyc.stat             Compute Moran's I autocorrelation statistic
+kn.iscluster            Clustering function for Kulldorff and
+                        Nagarwalla's statistic
+kullnagar               Kulldorff and Nagarwalla's statistic for
+                        spatial clustering.
+kullnagar.boot          Generate bootstrap replicates of Kulldorff and
+                        Nagarwalla's statistic
+kullnagar.stat          Kulldorff and Nagarwalla's statistic for
+                        spatial clustering.
+moranI                  Moran's I autocorrelation statistic
+moranI.boot             Generate bootstrap replicates of Moran's I
+                        autocorrelation statistic
+moranI.stat             Compute Moran's I autocorrelation statistic
+multinom.sim            Randomly generate observed cases from
+                        different statistical distributions
+opgam                   Openshaw's GAM
+opgam.iscluster.default
+                        Local clustering test function
+pottwhitt               Potthoff-Whittinghill's statistic for
+                        overdispersion
+pottwhitt.boot          Bootstrap replicates of
+                        Potthoff-Whittinghill's statistic
+pottwhitt.stat          Compute Potthoff-Whittinghill's statistic
+rmultin                 Generate random observations from a
+                        multinomial distribution
+stone                   Stone's Test
+stone.boot              Generate boostrap replicates of Stone's
+                        statistic
+stone.stat              Compute Stone's statistic
+tango                   Tango's statistic for general clustering
+tango.boot              Generate bootstrap replicated of Tango's
+                        statistic
+tango.stat              Compute Tango's statistic for general
+                        clustering
+whittermore             Whittermore's statistic
+whittermore.boot        Generate bootstrap replicates of Whittermore's
+                        statistic
+whittermore.stat        Compute Whittermore's statistic
