@@ -15,7 +15,7 @@ kn.iscluster<-function(data, idx, idxorder, alpha, fractpop, use.poisson=TRUE,
 	if(is.null(knboot$t0))
 		return(c(NA, NA, NA, NA))
 
-	pvalue<-sum(knboot$t[,1]>=knboot$t0[1] )/(R+1)
+	pvalue<-(sum(knboot$t[,1]>knboot$t0[1])+1)/(R+1)
 	return(c( knboot$t0[1], alpha>pvalue, pvalue, knboot$t0[2]) )
 }
 

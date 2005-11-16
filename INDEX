@@ -29,6 +29,8 @@ kullnagar.boot          Generate bootstrap replicates of Kulldorff and
                         Nagarwalla's statistic
 kullnagar.stat          Kulldorff and Nagarwalla's statistic for
                         spatial clustering.
+lognormalEB             Empirical Bayes Smoothing using a log-normal
+                        model
 moranI                  Moran's I autocorrelation statistic
 moranI.boot             Generate bootstrap replicates of Moran's I
                         autocorrelation statistic
@@ -54,6 +56,8 @@ tango.boot              Generate bootstrap replicated of Tango's
                         statistic
 tango.stat              Compute Tango's statistic for general
                         clustering
+test.nb.pois            Likelihood ratio test and Dean's tests for
+                        Overdispertion
 whittermore             Whittermore's statistic
 whittermore.boot        Generate bootstrap replicates of Whittermore's
                         statistic

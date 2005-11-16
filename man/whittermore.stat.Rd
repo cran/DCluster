@@ -11,7 +11,7 @@ for more details.
 
 
 \usage{
-whittermore.stat(data, listw, zero.policy=FALSE))
+whittermore.stat(data, listw, zero.policy=FALSE)
 }
 
 \arguments{
