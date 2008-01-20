@@ -159,4 +159,4 @@ Lawson, A. B. (2001). Statistical Methods in Spatial Epidemiology. John Wiley an
 
 
 
-\keyword{spatial}
+\keyword{package}

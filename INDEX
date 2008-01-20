@@ -14,13 +14,15 @@ bn.iscluster            Clustering function for Besag and Newell's
                         method
 calculate.mle           Calculate parameters involved in smapling
                         procedures
-DCluster                A package for the detection of spatial
-                        clusters of diseases for count data
+DCluster                A package for the detection of spatial clusters
+                        of diseases for count data
 empbaysmooth            Empirical Bayes Smoothing
 gearyc                  Moran's I autocorrelation statistic
 gearyc.boot             Generate bootstrap replicates of Moran's I
                         autocorrelation statistic
 gearyc.stat             Compute Moran's I autocorrelation statistic
+get.knclusters          Get areas in a cluster detected with
+                        Kulldorff's statistic
 kn.iscluster            Clustering function for Kulldorff and
                         Nagarwalla's statistic
 kullnagar               Kulldorff and Nagarwalla's statistic for
@@ -35,18 +37,20 @@ moranI                  Moran's I autocorrelation statistic
 moranI.boot             Generate bootstrap replicates of Moran's I
                         autocorrelation statistic
 moranI.stat             Compute Moran's I autocorrelation statistic
-multinom.sim            Randomly generate observed cases from
-                        different statistical distributions
+multinom.sim            Randomly generate observed cases from different
+                        statistical distributions
 opgam                   Openshaw's GAM
 opgam.iscluster.default
                         Local clustering test function
+plot.dcluster           Class for results from a test for the detection
+                        of disease clusters
 pottwhitt               Potthoff-Whittinghill's statistic for
                         overdispersion
-pottwhitt.boot          Bootstrap replicates of
-                        Potthoff-Whittinghill's statistic
+pottwhitt.boot          Bootstrap replicates of Potthoff-Whittinghill's
+                        statistic
 pottwhitt.stat          Compute Potthoff-Whittinghill's statistic
-rmultin                 Generate random observations from a
-                        multinomial distribution
+rmultin                 Generate random observations from a multinomial
+                        distribution
 stone                   Stone's Test
 stone.boot              Generate boostrap replicates of Stone's
                         statistic

@@ -28,7 +28,7 @@ lognormalEB<-function(Observed, Expected, maxiter = 20, tol = 1e-05)
 		iter<-iter+1
 	}
 
-	print(iter)
+#	print(iter)
 	b
 
 	return(list(n = length(Observed), phi = m1, sigma2=v1,

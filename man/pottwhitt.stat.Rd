@@ -1,6 +1,7 @@
 \name{pottwhitt.stat}
 
 \alias{pottwhitt.stat}
+\alias{pottwhitt.test}
 
 \title{Compute Potthoff-Whittinghill's statistic}
 
@@ -9,16 +10,34 @@
 
 Compute Pottwhoff-Whittinghill's statistic.
 
+pottwhitt.stat computes the test statistic and the test using a hi-square
+distribution whilst pottwhitt.test performs a bootstrap test.
+
 }
 
 
 \usage{
 pottwhitt.stat(data)
+pottwhitt.test(formula, data, model, R, ...)
+
 }
 
 \arguments{
-\item{data}{A dataframe containing the data, as specified in the 
-\bold{DCluster}manpage.}
+\item{formula}{Formula that specifies the underlying model. The observed
+cases are the response and the expected number of cases must be specified
+as an offset in the log scale (see example below). Note that now it
+is not necessary to use Observed and Expected and that any other 
+names can be used to specify the observed and expected cases.
+
+}
+\item{model}{Parametric model to be used in the bootstrap test. One of
+"param", "multinom", "poisson" or "negbin". See the \bold{DCluster} manpage for details.}
+\item{...}{The remaining arguments in 'achisq.stat' not included in
+'achisq.test'. This is done so because achisq.test calls achisq.stat in order to perform the test.}
+\item{R}{Number of replicates used in the test to compute the significance of
+the observed value of the test statistic.}
+\item{data}{A dataframe containing the data, as specified in the
+\bold{DCluster} manpage.}
 }
 
 \value{
@@ -45,6 +64,8 @@ sids<-cbind(sids, Expected=nc.sids$BIR74*sum(nc.sids$SID74)/sum(nc.sids$BIR74))
 sids<-cbind(sids, x=nc.sids$x, y=nc.sids$y)
 
 pottwhitt.stat(sids)
+
+pottwhitt.test(Observed~offset(log(Expected)),sids, model="poisson", R=99)
 }
 
 \references{

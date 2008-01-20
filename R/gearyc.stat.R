@@ -1,8 +1,8 @@
-gearyc.stat<-function(data, applyto="residuals", ...)
+gearyc.stat<-function(data, applyto="SMR", ...)
 {
 	n<-length(data$Observed)
 
-	if(applyto == "residuals")
+	if(applyto != "SMR")
 	{
 		Z<- data$Observed - data$Expected
 	}

@@ -1,6 +1,6 @@
-moranI.stat<-function(data, applyto="residuals", ...)
+moranI.stat<-function(data, applyto="SMR", ...)
 {
-	if(applyto == "residuals")
+	if(applyto != "SMR")
 	{
 		Z<- data$Observed - data$Expected
 	}

@@ -1,0 +1,16 @@
+citHeader("To cite 'DCluster' in publications please use:")
+
+citEntry(entry="article",
+   author = "V. Gómez-Rubio; J. Ferrándiz-Ferragud; A. Lopez-Quílez",
+   title = "Detecting clusters of disease with R",
+   journal = "Journal of Geographical Systems",
+   year = "2005",
+   volume = "7",
+   number = "2",
+   pages= "189-206",
+
+   textVersion =
+         paste("V. Gómez-Rubio; J. Ferrándiz-Ferragud; A. López-Quílez",
+ " (2005).", "Detecting clusters of disease with R.",
+ " Journal of Geographical Systems. 7, Number 2:189-206")
+)

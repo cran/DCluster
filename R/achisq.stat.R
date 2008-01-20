@@ -1,8 +1,7 @@
 achisq.stat<-function(data, lambda=NULL)
 {
-	attach(data)
 
-	df<-length(Observed)
+	df<-length(data$Observed)
 
 
 	#If internal standardization was  used then lambda=1 and df=n-1
@@ -16,17 +15,15 @@ achisq.stat<-function(data, lambda=NULL)
 		#If lambda is unknown then we must slightly modify E_i
 		if(is.null(lambda))
 		{
-			lambda<-sum(Observed)/sum(Expected)
+			lambda<-sum(data$Observed)/sum(data$Expected)
 			df<-df-1
 		}
 	}
 		
-	Elambda<-Expected*lambda
+	Elambda<-data$Expected*lambda
 
-	T<-sum((Observed-Elambda)^2/Elambda)
+	T<-sum((data$Observed-Elambda)^2/Elambda)
 	pvalue<-pchisq(T, df, lower.tail=FALSE)
-
-	detach(data)
 	
 	return( list(T=T, df=df, pvalue=pvalue) )
 }

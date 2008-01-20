@@ -1,22 +1,40 @@
 \name{whittermore.stat}
 
 \alias{whittermore.stat}
+\alias{whittermore.test}
 
 \title{Compute Whittermore's statistic}
 
 \description{
 Compute Whittermore's statistic. See \emph{whittermore} manual page
 for more details.
+
+whittermore.stat computes the test statistic and the test using a hi-square
+distribution whilst whittermore.test performs a bootstrap test.
 }
 
 
 \usage{
 whittermore.stat(data, listw, zero.policy=FALSE)
+whittermore.test(formula, data, model, R, ...)
 }
 
 \arguments{
-\item{data}{Dataframe with the data, as desribed in \emph{DCluster}
-manual page.}
+\item{formula}{Formula that specifies the underlying model. The observed
+cases are the response and the expected number of cases must be specified
+as an offset in the log scale (see example below).  Note that now it
+is not necessary to use Observed and Expected and that any other
+names can be used to specify the observed and expected cases.
+}
+\item{model}{Parametric model to be used in the bootstrap test. One of
+"param", "multinom", "poisson" or "negbin". See the \bold{DCluster} manpage for
+details.}
+\item{...}{The remaining arguments in 'whittermore.stat' not included in
+'whittermore.test'. This is done so because whittermore.test calls whittermore.stat in order to perform the test.}
+\item{R}{Number of replicates used in the test to compute the significance of
+the observed value of the test statistic.}
+\item{data}{A dataframe containing the data, as specified in the
+\bold{DCluster} manpage.}
 \item{listw}{Neighbours list with spatial weights created, for example,
 by 'nb2listw' (package \emph{spdep}).}
 \item{zero.policy}{See \emph{nb2listw} in package \emph{spdep}.}
@@ -52,6 +70,9 @@ col.W.whitt<-nb2listw(dlist, glist=dlist.d, style="C")
 
 
 whittermore.stat(sids, col.W.whitt, zero.policy=TRUE)
+
+whittermore.test(Observed~offset(log(Expected)), sids, model="poisson", R=99, 
+   listw=col.W.whitt, zero.policy=TRUE)
 }
 
 \references{
