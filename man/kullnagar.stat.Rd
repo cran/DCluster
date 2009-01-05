@@ -13,8 +13,8 @@ around a single region, which is supposed to be the first row of the
 dataframe. The other regions are supposed to be sorted by distance to 
 the centre in the data frame.
 
-Two possible function are provided: {\em kullnagar.stat.poisson}, for th Poisson
-case, and {\em kullnagar.stat.bern}, for the Bernouilli case.
+Two possible function are provided: \emph{kullnagar.stat.poisson}, for th
+Poisson case, and \emph{kullnagar.stat.bern}, for the Bernouilli case.
 
 See \emph{kullnagar} manual page for details.
 }

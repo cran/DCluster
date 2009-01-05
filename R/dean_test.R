@@ -1,4 +1,4 @@
-# Copyright 2004 Virgilio Gómez Rubio and Roger Bivand
+# Copyright 2004 Virgilio GÃ³mez Rubio and Roger Bivand
 
 test.nb.pois <- function(x.nb, x.glm){
 	if (!(inherits(x.nb, "negbin"))) stop("not a negbin object")

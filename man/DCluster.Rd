@@ -63,9 +63,11 @@ by multiplying it by the overall relative risk \eqn{\frac{O_+}{E_+}}{O_+/E_+}.
 \section{Code structure}{
 Function names follow a common format, which is a follows:
 
+\itemize{
 \item{\emph{method name}.stat}{Calculate the statistic itself.}
 \item{\emph{method name}.boot}{Perform a non-parametric bootstrap.}
 \item{\emph{method name}.pboot}{Perform a parametric bootstrap.}
+}
 
 Openshaw's G.A.M. has generally been implemented in a function called
 \emph{gam}, which some methods ( Kulldorff & Nagarwalla, Besag & Newell) also

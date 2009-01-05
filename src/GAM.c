@@ -3,6 +3,7 @@
 #include"DCluster.h"
 
 
+
 SEXP Ropgam_iscluster_negbin(SEXP Observed, SEXP Expected, SEXP size, SEXP prob, SEXP nsim)
 {
 	double pvalue;

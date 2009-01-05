@@ -5,6 +5,7 @@
 
 #include"R_ext/Applic.h"
 #include"R_ext/RS.h"
+#include<R_ext/Random.h>
 
 SEXP Rkn_poisson(SEXP Observed, SEXP Expected, SEXP fractpop);
 

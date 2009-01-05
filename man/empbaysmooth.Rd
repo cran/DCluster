@@ -69,7 +69,7 @@ A list of four elements:
 \item{alpha}{Estimation of parameter \eqn{\alpha}{alpha}}
 \item{smthrr}{Vector of smoothed relative risks.}
 \item{size}{Size parameter of the Negative Binomial. It is equal to 
-\deqn{\widehat{\nu}}}{nuhat}.
+\deqn{\widehat{\nu}}{nuhat}}.
 \item{prob}{It is a vector of probabilities of the Negative Binomial,
 calculated as
 \deqn{\frac{\widehat{\alpha}}{\widehat{\alpha}+E_i}}{alphahat/(alphahat+E_i} .}

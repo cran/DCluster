@@ -24,7 +24,6 @@ calculate.mle(d, model="poisson")
 \value{
 A list with the estimates of the parameters involved in the model:
 
-\itemize{
 \item{Multimonial}{Total observed cases (\emph{n}) and vector of probabilities
 (\emph{p}).}
 \item{Poisson}{Total number of regions (\emph{n}) and vector of means 
@@ -33,7 +32,6 @@ A list with the estimates of the parameters involved in the model:
 size and probabilites, calculated after estimating parameters parameters 
 \emph{nu} and \emph{alpha} of the Gamma distribution following equations 
 proposed by Clayton and Kaldor (1989).}
-}%itemize
 }
 
 \seealso{
