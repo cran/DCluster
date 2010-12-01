@@ -1,4 +1,4 @@
-\name{moranI}
+\name{moranI.stat}
 
 \alias{moranI.stat}
 \alias{moranI.test}
