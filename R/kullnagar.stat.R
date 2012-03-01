@@ -1,15 +1,15 @@
 kn.iscluster<-function(data, idx, idxorder, alpha, fractpop, use.poisson=TRUE, 
-	model="poisson", R, mle)
+	model="poisson", R, mle, ...)
 {
         #Indexes of regions in the balls ordered by distance to the centre
         localidx<-idxorder[idx[idxorder]]
 
 
 	knboot<-switch(model,
-	permutation = boot(data[idxorder,], statistic=kullnagar.boot, R=R, fractpop=fractpop, use.poisson=use.poisson),
-	multinomial=boot(data[localidx,], statistic=kullnagar.pboot, sim="parametric", ran.gen=multinom.sim,  R=R, fractpop=fractpop, use.poisson=use.poisson, mle=list(n=mle$n, p=mle$p[localidx]) ),
-	poisson = boot(data[localidx,], statistic=kullnagar.pboot, sim="parametric", ran.gen=poisson.sim,  R=R, fractpop=fractpop, use.poisson=use.poisson, mle=list(n=mle$n, lambda=mle$lambda[localidx]) ),
-	negbin = boot(data[localidx,], statistic=kullnagar.pboot, sim="parametric", ran.gen=negbin.sim,  R=R, fractpop=fractpop, use.poisson=use.poisson, mle=list(n=mle$n, size=mle$size,prob=mle$prob[localidx]) )
+	permutation = boot(data[idxorder,], statistic=kullnagar.boot, R=R, fractpop=fractpop, use.poisson=use.poisson, ...),
+	multinomial=boot(data[localidx,], statistic=kullnagar.pboot, sim="parametric", ran.gen=multinom.sim,  R=R, fractpop=fractpop, use.poisson=use.poisson, mle=list(n=mle$n, p=mle$p[localidx]), ... ),
+	poisson = boot(data[localidx,], statistic=kullnagar.pboot, sim="parametric", ran.gen=poisson.sim,  R=R, fractpop=fractpop, use.poisson=use.poisson, mle=list(n=mle$n, lambda=mle$lambda[localidx]), ... ),
+	negbin = boot(data[localidx,], statistic=kullnagar.pboot, sim="parametric", ran.gen=negbin.sim,  R=R, fractpop=fractpop, use.poisson=use.poisson, mle=list(n=mle$n, size=mle$size,prob=mle$prob[localidx]), ... )
 	)
 
 	if(is.null(knboot$t0))

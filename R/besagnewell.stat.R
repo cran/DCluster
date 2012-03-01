@@ -18,7 +18,7 @@ bn.iscluster<-function(data, idx, idxorder, alpha, k, model="poisson", R=999, ml
 
 	pvalue<-switch(model,
 	permutation=(1+.5*sum(bnboot$t[,1]==stat)+.5*sum(bnboot$t[,1]<stat))/(R+1),
-	multinomial=1-pbinom(k-1, size=mle$n, p=sum(mle$p[localidx[1:stat]]) ),
+	multinomial=1-pbinom(k-1, size=mle$n, prob=sum(mle$p[localidx[1:stat]]) ),
 	poisson=1 - ppois(k-1, sum(mle$lambda[localidx[1:stat]])),
 	negbin=(1+.5*sum(bnboot$t[,1]==stat)+.5*sum(bnboot$t[,1]<stat))/(R+1)
 	)
