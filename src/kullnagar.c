@@ -30,11 +30,13 @@ void kn_poisson(double *Observed, double * Expected, int n, double fractpop, dou
 	
 	/*Cumulative sums*/
 	csumexp=(double *)R_alloc(n, sizeof(double));
-	R_cumsum(Expected, &n, &na, csumexp);
+	/*R_cumsum(Expected, &n, &na, csumexp);*/
+	mycumsum(Expected, &n, &na, csumexp);
 	E=csumexp[n-1];
 
 	csumobs=(double *)R_alloc(n, sizeof(double));
-	R_cumsum(Observed, &n, &na, csumobs);
+	/*R_cumsum(Observed, &n, &na, csumobs);*/
+	mycumsum(Observed, &n, &na, csumobs);
 	O=csumobs[n-1];
 
 

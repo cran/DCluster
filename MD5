@@ -1,5 +1,5 @@
-e6897cb282be7231411c251d1669b6bf *DESCRIPTION
-fa53880b767c379214c51856392018f5 *NAMESPACE
+3c501e4ac4b0cbf1432957523a01a816 *DESCRIPTION
+f5624701f6a27ff6b19c52f9118fde16 *NAMESPACE
 0da3f172346c6a1ba294d3f88f4bf6fa *R/achisq.boot.R
 b374959ed7009ce94e4dd6a09471e60d *R/achisq.pboot.R
 454f307d3cf49bcdfb029f290356b4e6 *R/achisq.stat.R
@@ -16,7 +16,7 @@ a27ac413045721dbbb432695d29994b7 *R/besagnewell.stat.R
 987cb885b805c70303dd3fe89c835175 *R/get.knclusters.R
 2b7ed745f73fa595caa9cdd3cd151fea *R/kullnagar.boot.R
 08950146bbfc64ef112d927ad5eb7806 *R/kullnagar.pboot.R
-93c33f6f61ec4276f3cbc9ff3add2532 *R/kullnagar.stat.R
+a74dc1acd49323d2ff53ce6b06dfaa4e *R/kullnagar.stat.R
 cbe9c64221d7eda71c2e6a29bd5c1417 *R/lognormalEB.R
 6ddc177c65ac925049b548c949e7c3be *R/moranI.boot.R
 91bd7b0028f612a61f00ae4fa603631e *R/moranI.pboot.R
@@ -38,7 +38,7 @@ eef28d0ea6122e03c94c5d3d6febf7a6 *R/tango.pboot.R
 1e44a7baf4548fe7de0e029dbfa1f591 *R/whittermore.boot.R
 10cc0d374218bc17440ad77fe2875c6c *R/whittermore.pboot.R
 e0bab0b72fcd002dee8350c9182d42b9 *R/whittermore.stat.R
-b71ae7768561224497a246571aeead9b *R/zzz.R
+c94e6bd8f45fefd33a515734205a8807 *R/zzz.R
 6852770661fc53d7e6f9f4b346042094 *inst/CITATION
 0e65c4d283372678bc992bd770b495a9 *man/DCluster.Rd
 cda870dd92a47f4eabcfa60defffcc92 *man/achisq.Rd
@@ -81,6 +81,7 @@ ff1f562d491a7a3a66105ad7a29764b6 *man/tango.stat.Rd
 3765e255058615df42bd532f080fd882 *man/whittermore.Rd
 24970fe4e2b098c21f50ab63e6f762dc *man/whittermore.boot.Rd
 8ea8606ac2dd6635489ef87d9fe6a5ef *man/whittermore.stat.Rd
-a71db708f419978ae3ad044e5fcd0576 *src/DCluster.h
+59104a652a27f7be742664619f82c530 *src/DCluster.h
 83acb0d55b16ca5bafcebe480e24605b *src/GAM.c
-156a06a8287759a301ce7c59440feb97 *src/kullnagar.c
+59fae2b9536e67db1c1661ae747e5834 *src/kullnagar.c
+bf98c45c3ae4af5c669af855444c355b *src/mycumsum.c

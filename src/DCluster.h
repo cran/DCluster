@@ -7,6 +7,8 @@
 #include"R_ext/RS.h"
 #include<R_ext/Random.h>
 
+void mycumsum(double *x, int *n, double *na, double *csumx);
+
 SEXP Rkn_poisson(SEXP Observed, SEXP Expected, SEXP fractpop);
 
 void kn_poisson(double *Observed, double * Expected, int n, double fractpop, double *logvalue, int *size);
