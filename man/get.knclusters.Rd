@@ -2,7 +2,7 @@
 
 \alias{get.knclusters}
 
-\title{Get areas in a cluster detected with Kulldorff's statistic}
+\title{Get Areas in a Cluster Detected with Kulldorff's Statistic}
 
 \description{
 When \emph{kn.iscluster} is called from \emph{opgam} to use Kulldorff's scan

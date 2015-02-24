@@ -2,7 +2,7 @@
 
 \alias{gearyc}
 
-\title{Moran's I autocorrelation statistic}
+\title{Geary's C Autocorrelation Statistic}
 
 
 \description{

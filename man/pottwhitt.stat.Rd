@@ -3,7 +3,7 @@
 \alias{pottwhitt.stat}
 \alias{pottwhitt.test}
 
-\title{Compute Potthoff-Whittinghill's statistic}
+\title{Compute Potthoff-Whittinghill's Statistic}
 
 
 \description{

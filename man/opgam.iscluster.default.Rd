@@ -3,7 +3,7 @@
 \alias{opgam.iscluster.default}
 \alias{opgam.iscluster.negbin}
 
-\title{Local clustering test function}
+\title{Local Clustering Test Function}
 
 \description{
 This function is passed to function \emph{gam} as argument \emph{iscluster}

@@ -2,7 +2,7 @@
 
 \alias{whittermore}
 
-\title{Whittermore's statistic}
+\title{Whittermore's Statistic}
 
 \description{
 Whittermore's statistic is defined as follows:

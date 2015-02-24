@@ -5,7 +5,7 @@
 \alias{kullnagar.stat.bern}
 
 
-\title{Kulldorff and Nagarwalla's statistic for spatial clustering.}
+\title{Kulldorff and Nagarwalla's Statistic for Spatial Clustering.}
 
 \description{
 Compute Kulldorff and Nagarwalla's spatial statistic for cluster detection

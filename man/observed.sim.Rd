@@ -4,7 +4,7 @@
 \alias{poisson.sim}
 \alias{negbin.sim}
 
-\title{Randomly generate observed cases from different statistical distributions}
+\title{Randomly Generate Observed Cases from Different Statistical Distributions}
 
 \description{
 Simulate Observed number of cases according to a Multinomial, Poisson or

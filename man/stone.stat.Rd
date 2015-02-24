@@ -3,7 +3,7 @@
 \alias{stone.stat}
 \alias{stone.test}
 
-\title{Compute Stone's statistic}
+\title{Compute Stone's Statistic}
 
 \description{
 Calculate Stone's statistic. See \emph{stone} manual page for details.

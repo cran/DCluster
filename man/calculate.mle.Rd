@@ -2,7 +2,7 @@
 
 \alias{calculate.mle}
 
-\title{Calculate parameters involved in smapling procedures}
+\title{Calculate Parameters Involved in Sampling Procedures}
 
 \description{
 When boostrap is used to sample values of the statistic under study,

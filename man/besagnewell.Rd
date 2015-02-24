@@ -2,7 +2,7 @@
 
 \alias{besagnewell}
 
-\title{Besag and Newell's statistic for spatial clustering}
+\title{Besag and Newell's Statistic for Spatial Clustering}
 
 \description{
 Besag & Newell's statistic looks for clusters of size \emph{k}, i. e., where

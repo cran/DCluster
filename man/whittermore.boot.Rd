@@ -3,7 +3,7 @@
 \alias{whittermore.boot}
 \alias{whittermore.pboot}
 
-\title{Generate bootstrap replicates of Whittermore's statistic}
+\title{Generate Bootstrap Replicates of Whittermore's Statistic}
 
 \description{
 Generate bootstrap replicates of Whittermore's statistic by means of function

@@ -42,7 +42,8 @@ be VERY slow.
 
 
 \usage{
-opgam(data, thegrid=NULL, radius=Inf, step=NULL,  alpha, iscluster=opgam.iscluster.default, set.idxorder=TRUE, ...)
+opgam(data, thegrid=NULL, radius=Inf, step=NULL, alpha,
+ iscluster=opgam.iscluster.default, set.idxorder=TRUE, ...)
 opgam.intern(point, data, rr, set.idxorder, iscluster, alpha, ...)
 }
 

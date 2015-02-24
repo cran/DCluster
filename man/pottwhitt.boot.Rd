@@ -3,7 +3,7 @@
 \alias{pottwhitt.boot}
 \alias{pottwhitt.pboot}
 
-\title{Bootstrap replicates of Potthoff-Whittinghill's statistic}
+\title{Bootstrap Replicates of Potthoff-Whittinghill's Statistic}
 
 
 \description{

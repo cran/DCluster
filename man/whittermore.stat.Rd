@@ -3,7 +3,7 @@
 \alias{whittermore.stat}
 \alias{whittermore.test}
 
-\title{Compute Whittermore's statistic}
+\title{Compute Whittermore's Statistic}
 
 \description{
 Compute Whittermore's statistic. See \emph{whittermore} manual page

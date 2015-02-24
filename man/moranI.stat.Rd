@@ -3,7 +3,7 @@
 \alias{moranI.stat}
 \alias{moranI.test}
 
-\title{Compute Moran's I autocorrelation statistic}
+\title{Compute Moran's I Autocorrelation Statistic}
 
 
 \description{

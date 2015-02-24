@@ -3,11 +3,11 @@
 \alias{gearyc.boot}
 \alias{gearyc.pboot}
 
-\title{Generate bootstrap replicates of Moran's I autocorrelation statistic}
+\title{Generate Bootstrap Replicates of Geary's C Autocorrelation Statistic}
 
 
 \description{
-Generate bootstrap replicates of Moran's I autocorrelation statistic, by means
+Generate bootstrap replicates of Geary's C autocorrelation statistic, by means
 of function \emph{boot} form \emph{boot} library. Notice that these functions
 should not  be used separately but as argument \emph{statistic} when calling
 function \emph{boot}.

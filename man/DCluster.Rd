@@ -2,8 +2,8 @@
 
 \alias{DCluster}
 
-\title{A package for the detection of  spatial clusters of diseases
-for count data}
+\title{A Package for the Detection of Spatial Clusters of Diseases
+for Count Data}
 
 
 \description{

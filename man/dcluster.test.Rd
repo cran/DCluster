@@ -5,7 +5,7 @@
 \alias{summary.dcluster}
 
 
-\title{Class for results from a test for the detection of disease clusters}
+\title{Class for Results from a Test for the Detection of Disease Clusters}
 
 
 \description{

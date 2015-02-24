@@ -2,7 +2,7 @@
 
 \alias{dotest}
 
-\title{Internal functions in the DCluster package.}
+\title{Internal Functions in the DCluster Package.}
 
 \description{
 These functions are used by the package internally and they are

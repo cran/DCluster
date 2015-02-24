@@ -2,7 +2,7 @@
 
 \alias{kullnagar}
 
-\title{Kulldorff and Nagarwalla's statistic for spatial clustering.}
+\title{Kulldorff and Nagarwalla's Statistic for Spatial Clustering.}
 
 \description{
 This method is based on creating a grid over the study area. Each point of

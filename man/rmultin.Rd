@@ -2,7 +2,7 @@
 
 \alias{rmultin}
 
-\title{Generate random observations from a multinomial distribution}
+\title{Generate Random Observations from a Multinomial Distribution}
 
 
 \description{

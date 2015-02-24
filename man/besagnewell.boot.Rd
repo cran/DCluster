@@ -3,7 +3,7 @@
 \alias{besagnewell.boot}
 \alias{besagnewell.pboot}
 
-\title{Generate boostrap replicates of Besag and Newell's statistic}
+\title{Generate Boostrap Replicates of Besag and Newell's Statistic}
 
 \description{
 Generate boostrap replicates of Besag and Newell's statistic, by means of

@@ -2,7 +2,7 @@
 
 \alias{moranI}
 
-\title{Moran's I autocorrelation statistic}
+\title{Moran's I Autocorrelation Statistic}
 
 
 \description{

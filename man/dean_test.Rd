@@ -4,7 +4,7 @@
 \alias{DeanB}
 \alias{DeanB2}
 
-\title{Likelihood ratio test and Dean's tests for Overdispertion}
+\title{Likelihood Ratio Test and Dean's Tests for Overdispertion}
 
 \description{
 When working with count data,  the assumption of a Poisson model is 

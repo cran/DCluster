@@ -3,7 +3,7 @@
 \alias{achisq.boot}
 \alias{achisq.pboot}
 
-\title{Bootstrap replicates of Pearson's Chi-square statistic}
+\title{Bootstrap Replicates of Pearson's Chi-square Statistic}
 
 
 \description{

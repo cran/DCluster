@@ -2,7 +2,7 @@
 
 \alias{pottwhitt}
 
-\title{Potthoff-Whittinghill's statistic for overdispersion}
+\title{Potthoff-Whittinghill's Statistic for Overdispersion}
 
 
 \description{

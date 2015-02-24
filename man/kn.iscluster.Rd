@@ -1,8 +1,9 @@
 \name{kn.iscluster}
 
 \alias{kn.iscluster}
+\alias{kn.gumbel.iscluster}
 
-\title{Clustering function for Kulldorff and Nagarwalla's statistic}
+\title{Clustering Function for Kulldorff and Nagarwalla's Statistic}
 
 \description{
 \emph{kn.iscluster} is called from \emph{opgam} when studying the whole
@@ -10,13 +11,19 @@ area. At every point of the grid, which may be all the centroids, this
 function is called to determine whether it is a cluster or not by
 calculating Kulldorff and Nagarwalla's statistic.
 
-See \emph{opgam.iscluster.default} for more details.
+See \emph{opgam.iscluster.default} for more details. \emph{kn.gumbel.iscluster}
+uses a Gumbel distribution to compute the p-values ofr each possible
+cluster.
 
 }
 
 
 \usage{
-kn.iscluster(data, idx, idxorder, alpha, fractpop, use.poisson=TRUE, model="poisson", R, mle, ...)
+kn.iscluster(data, idx, idxorder, alpha, fractpop, use.poisson=TRUE,
+ model="poisson", R, mle, ...)
+kn.gumbel.iscluster(data, idx, idxorder, alpha, fractpop, use.poisson=TRUE,
+ model="poisson", R, mle)
+
 }
 
 
@@ -57,15 +64,23 @@ sids<-cbind(sids, Population=nc.sids$BIR74, x=nc.sids$x, y=nc.sids$y)
 #K&N's method over the centroids
 mle<-calculate.mle(sids, model="poisson")
 knresults<-opgam(data=sids, thegrid=sids[,c("x","y")], alpha=.05, 
-	iscluster=kn.iscluster, fractpop=.5, R=100, model="poisson", mle=mle)
+  iscluster=kn.iscluster, fractpop=.5, R=100, model="poisson", mle=mle)
+
+kngumbelres<-opgam(data=sids, thegrid=sids[,c("x","y")], alpha=.05, 
+  iscluster=kn.gumbel.iscluster, fractpop=.5, R=100, model="poisson", 
+  mle=mle)
 
 #Plot all centroids and significant ones in red
 plot(sids$x, sids$y, main="Kulldorff and Nagarwalla's method")
 points(knresults$x, knresults$y, col="red", pch=19)
+points(knresults$x, knresults$y, col="blue", pch=20)
 }
 
 \references{
-Kulldorff, Martin and Nagarwalla, Neville (1995). Spatial Disease Clusters: Detection and Inference. Statistics in Medicine 14, 799-810.
+Kulldorff, Martin and Nagarwalla, Neville (1995). Spatial Disease Clusters: 
+ Detection and Inference. Statistics in Medicine 14, 799-810.
+Abrams A, Kleinman K, Kulldorff M (2010). Gumbel based p-value approximations
+ for spatial scan statistics. International Journal of Health Geographics, 9:61.
 }
 
 \keyword{spatial}

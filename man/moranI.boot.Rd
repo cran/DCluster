@@ -3,7 +3,7 @@
 \alias{moranI.boot}
 \alias{moranI.pboot}
 
-\title{Generate bootstrap replicates of Moran's I autocorrelation statistic}
+\title{Generate Bootstrap Replicates of Moran's I Autocorrelation Statistic}
 
 
 \description{

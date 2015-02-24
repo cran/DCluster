@@ -1,7 +1,9 @@
-useDynLib(DCluster)
+useDynLib(DCluster,
+  Rkn_poisson,
+  kn_poisson,
+  Ropgam_iscluster_negbin,
+  opgam_iscluster_negbin)
 
-# Export all names
-exportPattern(".")
 
 # Import all packages listed as Imports or Depends
 import(
@@ -9,3 +11,95 @@ import(
   spdep,
   MASS
 )
+
+#S3methods
+S3method(print, dcluster)
+S3method(summary, dcluster)
+S3method(plot, dcluster)
+
+#Sampling data & ML
+export(multinom.sim)
+export(negbin.sim)
+export(poisson.sim)
+export(rmultin)
+export(calculate.mle)
+
+#Several functions
+export(dotest)
+export(print.dcluster)
+export(empbaysmooth)
+export(plot.dcluster)
+export(summary.dcluster)
+export(lognormalEB)
+export(kn.iscluster)
+export(get.knclusters)
+
+
+#Chi-sq Test
+export(achisq.boot)
+export(achisq.pboot)
+export(achisq.stat)
+export(achisq.test)
+
+#Openshaw's GAM
+export(opgam)
+export(opgam.intern)
+export(opgam.iscluster.default)
+export(opgam.iscluster.negbin)
+
+#Besag & Newell's Tests
+export(besagnewell.boot)
+export(besagnewell.pboot)
+export(besagnewell.stat)
+export(bn.iscluster)
+
+
+#P-W's Test
+export(pottwhitt.boot)
+export(pottwhitt.pboot)
+export(pottwhitt.stat)
+export(pottwhitt.test)
+
+#Over-dispersion Tests
+export(DeanB)
+export(DeanB2)
+export(test.nb.pois)
+
+#Geary's C
+export(gearyc.boot)
+export(gearyc.pboot)
+export(gearyc.stat)
+export(gearyc.test)
+
+#Moran's I
+export(moranI.test)
+export(moranI.boot)
+export(moranI.pboot)
+export(moranI.stat)
+
+#Stone's Test
+export(stone.boot)
+export(stone.pboot)
+export(stone.stat)
+export(stone.test)
+
+#Tango's Test
+export(tango.boot)
+export(tango.pboot)
+export(tango.stat)
+export(tango.test)
+
+#Spatial scan statistic
+export(kullnagar.boot)
+export(kullnagar.pboot)
+export(kullnagar.stat)
+export(kullnagar.stat.bern)
+export(kullnagar.stat.poisson)
+export(kn.gumbel.iscluster)
+
+#Whittermore's Test
+export(whittermore.boot)
+export(whittermore.pboot)
+export(whittermore.stat)
+export(whittermore.test)
+

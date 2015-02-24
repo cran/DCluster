@@ -2,7 +2,7 @@
 
 \alias{besagnewell.stat}
 
-\title{Besag and Newell's statistic for spatial clustering}
+\title{Besag and Newell's Statistic for Spatial Clustering}
 
 \description{
 \emph{besagnewell.stat} computes the statistic around a single location.

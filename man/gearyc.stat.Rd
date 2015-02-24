@@ -3,11 +3,11 @@
 \alias{gearyc.stat}
 \alias{gearyc.test}
 
-\title{Compute Moran's I autocorrelation statistic}
+\title{Compute Geary's C Autocorrelation Statistic}
 
 
 \description{
-Compute Moran's I autocorrelation statistic using either \bold{residuals}
+Compute Geary's C autocorrelation statistic using either \bold{residuals}
 or \bold{SMRs} by means of cuntion \emph{geary} from package \emph{spdep}.
 
 gearyc.stat computes the test statistic and the test using a hi-square
@@ -39,7 +39,7 @@ the observed value of the test statistic.}
 \item{data}{A dataframe containing the data, as specified in the
 \bold{DCluster} manpage.}
 \item{applyto}{A string with the name of the statistic with
-which calculate Moran's Index. It may be either \emph{residulas}
+which calculate Geary's Index. It may be either \emph{residulas}
 or \emph{SMR}.}
 }
 

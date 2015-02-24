@@ -2,7 +2,7 @@
 
 \alias{bn.iscluster}
 
-\title{Clustering function for Besag and Newell's method}
+\title{Clustering Function for Besag and Newell's Method}
 
 \description{
 This function is used to calculate the significance of the agregation

@@ -2,7 +2,7 @@
 
 \alias{achisq}
 
-\title{Another implementation of Pearson's Chi-square statistic}
+\title{Another Implementation of Pearson's Chi-square Statistic}
 
 
 \description{

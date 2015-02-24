@@ -3,7 +3,7 @@
 \alias{kullnagar.boot}
 \alias{kullnagar.pboot}
 
-\title{Generate bootstrap replicates of Kulldorff and Nagarwalla's statistic}
+\title{Generate Bootstrap Replicates of Kulldorff and Nagarwalla's Statistic}
 
 \description{
 Generate bootstrap replicates of Kulldorff and Nagarwalla's statistic,

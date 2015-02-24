@@ -3,7 +3,7 @@
 \alias{tango.boot}
 \alias{tango.pboot}
 
-\title{Generate bootstrap replicated of Tango's statistic}
+\title{Generate Bootstrap Replicated of Tango's Statistic}
 
 \description{
 Generate bootstrap replicated of Tango's statistic for general clustering, by

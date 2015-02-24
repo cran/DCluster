@@ -3,7 +3,7 @@
 \alias{lognormalEB}
 
 
-\title{Empirical Bayes Smoothing using a log-normal model}
+\title{Empirical Bayes Smoothing Using a log-Normal Model}
 
 \description{
 Smooth  relative risks from a set of expected and observed number of cases

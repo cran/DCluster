@@ -2,7 +2,7 @@
 
 \alias{tango}
 
-\title{Tango's statistic for general clustering}
+\title{Tango's Statistic for General Clustering}
 
 \description{
 Tango's statistic to perform a general clustering test is expressed as

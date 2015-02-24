@@ -30,8 +30,8 @@ kullnagar.stat<-function(data, fractpop, use.poisson=TRUE, log.v=FALSE)
 	if(use.poisson)
 	{
 	#	r<-kullnagar.stat.poisson(data, fractpop, log.v=FALSE)
-		r<-.Call("Rkn_poisson", as.numeric(data$Observed), data$Expected, 
-		fractpop, PACKAGE="DCluster")
+		r<-.Call("Rkn_poisson", as.numeric(data$Observed),
+		data$Expected, fractpop, PACKAGE="DCluster")
 
 		if(!log.v)
 			r[1]<-exp(r[1])

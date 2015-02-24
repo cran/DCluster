@@ -3,7 +3,7 @@
 \alias{tango.stat}
 \alias{tango.test}
 
-\title{Compute Tango's statistic for general clustering}
+\title{Compute Tango's Statistic for General Clustering}
 
 \description{
 Compute Tango's statistic for general clustering. See \emph{tango} manual
