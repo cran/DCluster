@@ -1,5 +1,5 @@
-3964ff2fe419dd4730be38aaaa271fcf *DESCRIPTION
-eb63ab880f1e8d9b606a29dc2ee00b8f *NAMESPACE
+a2591742a69dd37e242fec6769f764d8 *DESCRIPTION
+5b146efebd32b9b4ce9895d78ccc0994 *NAMESPACE
 0da3f172346c6a1ba294d3f88f4bf6fa *R/achisq.boot.R
 b374959ed7009ce94e4dd6a09471e60d *R/achisq.pboot.R
 454f307d3cf49bcdfb029f290356b4e6 *R/achisq.stat.R
@@ -83,5 +83,6 @@ de6440fa54234df810f637d218e2bdf4 *man/whittermore.boot.Rd
 0b2eb0139da04d973744669c1998bca1 *man/whittermore.stat.Rd
 59104a652a27f7be742664619f82c530 *src/DCluster.h
 83acb0d55b16ca5bafcebe480e24605b *src/GAM.c
+1703dbdac0b933d3ac8f9a5db797d43a *src/init.c
 59fae2b9536e67db1c1661ae747e5834 *src/kullnagar.c
 bf98c45c3ae4af5c669af855444c355b *src/mycumsum.c

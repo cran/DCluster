@@ -103,3 +103,9 @@ export(whittermore.pboot)
 export(whittermore.stat)
 export(whittermore.test)
 
+# Added after running devtools::check()
+importFrom("graphics", "abline", "hist")
+importFrom("stats", "dnbinom", "dpois", "fitted", "hatvalues",
+               "model.frame", "model.offset", "model.response", "pbinom",
+               "pchisq", "pnorm", "ppois", "rbinom", "rnbinom", "rpois",
+               "sd", "var")
