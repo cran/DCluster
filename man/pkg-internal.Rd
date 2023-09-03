@@ -15,7 +15,7 @@ dotest(formula, stat, data, model, R, ..., alternative=NULL)
 }
 
 \arguments{
-\item{formual}{Formula that relates the observed cases (response)
+\item{formula}{Formula that relates the observed cases (response)
 to the expected cases (as an offset in the logscale, i.e., 
 offset(log(expected))}
 \item{stat}{Name of the statistic to be computed.}

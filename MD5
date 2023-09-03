@@ -1,4 +1,4 @@
-a2591742a69dd37e242fec6769f764d8 *DESCRIPTION
+57bb4523b8e54ea5b5f1ced5a98196c6 *DESCRIPTION
 5b146efebd32b9b4ce9895d78ccc0994 *NAMESPACE
 0da3f172346c6a1ba294d3f88f4bf6fa *R/achisq.boot.R
 b374959ed7009ce94e4dd6a09471e60d *R/achisq.pboot.R
@@ -39,7 +39,7 @@ eef28d0ea6122e03c94c5d3d6febf7a6 *R/tango.pboot.R
 1e44a7baf4548fe7de0e029dbfa1f591 *R/whittermore.boot.R
 10cc0d374218bc17440ad77fe2875c6c *R/whittermore.pboot.R
 e0bab0b72fcd002dee8350c9182d42b9 *R/whittermore.stat.R
-6852770661fc53d7e6f9f4b346042094 *inst/CITATION
+f0d2b3e1c2560e5ce5f9d9339f1d0743 *inst/CITATION
 e95245b4922b28d0b67a0840e8d5d2db *man/DCluster.Rd
 e5e6871a9412d4514376a94619b17fb0 *man/achisq.Rd
 566156d629d4e2c73d151fa87a3134ec *man/achisq.boot.Rd
@@ -67,7 +67,7 @@ d26c9a39fe8ba3c24c96213e2acb0142 *man/kullnagar.stat.Rd
 c3abac8731188062498ff0020f7d920b *man/observed.sim.Rd
 18c97fd1d5144500610b81696e0d30c3 *man/opgam.Rd
 5921b0904a926041defe7420533d830b *man/opgam.iscluster.default.Rd
-577a501b951e38ec26bd43fda701943a *man/pkg-internal.Rd
+1220a2aef221cd4261503522f38719d2 *man/pkg-internal.Rd
 5b40cd77b30a14d92641ef0c5afb68cf *man/pottwhitt.Rd
 b20f4feb45572567a5af13241811e2b2 *man/pottwhitt.boot.Rd
 26f5449a411e6046508157def9f8c10d *man/pottwhitt.stat.Rd
