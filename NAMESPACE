@@ -103,6 +103,11 @@ export(whittermore.pboot)
 export(whittermore.stat)
 export(whittermore.test)
 
+# WB polygons (from maptools)
+export(readSplus, sp2WB)
+importFrom("methods", "slot")
+importFrom("stats", "na.omit")
+
 # Added after running devtools::check()
 importFrom("graphics", "abline", "hist")
 importFrom("stats", "dnbinom", "dpois", "fitted", "hatvalues",

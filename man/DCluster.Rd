@@ -63,7 +63,7 @@ by multiplying it by the overall relative risk \eqn{\frac{O_+}{E_+}}{O_+/E_+}.
 \section{Code structure}{
 Function names follow a common format, which is a follows:
 
-\itemize{
+\describe{
 \item{\emph{method name}.stat}{Calculate the statistic itself.}
 \item{\emph{method name}.boot}{Perform a non-parametric bootstrap.}
 \item{\emph{method name}.pboot}{Perform a parametric bootstrap.}
@@ -129,7 +129,7 @@ the functions in this package is a dataframe which contains the data for each
 of the regions used in the analysis. Besides, its columns must be labeled:
 
 
-\itemize{
+\describe{
 
 \item{\bold{Observed}}{Observed number of cases.}
 

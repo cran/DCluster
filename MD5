@@ -1,5 +1,5 @@
-57bb4523b8e54ea5b5f1ced5a98196c6 *DESCRIPTION
-5b146efebd32b9b4ce9895d78ccc0994 *NAMESPACE
+e548f900db35e21565afee6c5c9d9cff *DESCRIPTION
+e2648816353918ae07100ba1f35bdf40 *NAMESPACE
 0da3f172346c6a1ba294d3f88f4bf6fa *R/achisq.boot.R
 b374959ed7009ce94e4dd6a09471e60d *R/achisq.pboot.R
 454f307d3cf49bcdfb029f290356b4e6 *R/achisq.stat.R
@@ -29,7 +29,9 @@ e29cb41a48c2666cfda3bbbf521a97f7 *R/multinom.sim.R
 4ac83b2cf936f6f48880eedde9a818af *R/pottwhitt.boot.R
 b3ef620f4f601f993fe2cc6568527bd5 *R/pottwhitt.pboot.R
 2d6186da82426677bd72a1eb79fd9147 *R/pottwhitt.stat.R
+8f308dd50a1fb38873b31a1f6a449593 *R/readSplus.R
 6ce9db93cf7f1a928888c8df29d5b7b7 *R/rmultin.R
+c3573d34a6efb82226c935627b0f4e9a *R/sp2WB.R
 1fd8c7b45d001277f9cdbbf30f7969b7 *R/stone.boot.R
 cbff715b79132ecaffbb898661b76d42 *R/stone.pboot.R
 04ee7698d8dedae94ef683398a89fdfb *R/stone.stat.R
@@ -40,7 +42,8 @@ eef28d0ea6122e03c94c5d3d6febf7a6 *R/tango.pboot.R
 10cc0d374218bc17440ad77fe2875c6c *R/whittermore.pboot.R
 e0bab0b72fcd002dee8350c9182d42b9 *R/whittermore.stat.R
 f0d2b3e1c2560e5ce5f9d9339f1d0743 *inst/CITATION
-e95245b4922b28d0b67a0840e8d5d2db *man/DCluster.Rd
+c4f746f01e9671f40b124ffdcd47fca8 *inst/share/Splus.map
+e4f79a206abe1b1be64c5b462a021a8c *man/DCluster.Rd
 e5e6871a9412d4514376a94619b17fb0 *man/achisq.Rd
 566156d629d4e2c73d151fa87a3134ec *man/achisq.boot.Rd
 a49379bebae759eb560df3c56f58a73b *man/achisq.stat.Rd
@@ -71,7 +74,9 @@ c3abac8731188062498ff0020f7d920b *man/observed.sim.Rd
 5b40cd77b30a14d92641ef0c5afb68cf *man/pottwhitt.Rd
 b20f4feb45572567a5af13241811e2b2 *man/pottwhitt.boot.Rd
 26f5449a411e6046508157def9f8c10d *man/pottwhitt.stat.Rd
+b2cf91fcb922a0e8c6869e8cfae68a34 *man/readSplus.Rd
 de07a783f7861c2cc2022289642e8170 *man/rmultin.Rd
+5ce11b3ad57197422bc9caa3be24a97e *man/sp2WB.Rd
 fbae29d0b0b3cdea90406dfbba9dcfad *man/stone.Rd
 e798e937140662baf2093041b173b4ec *man/stone.boot.Rd
 8aed916b209c329d51a0b153366a0b6f *man/stone.stat.Rd
